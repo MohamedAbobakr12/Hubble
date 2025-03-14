@@ -22,7 +22,7 @@
 }
 
 .li {
-    @apply w-max text-xl font-semibold transition-all duration-300
+    @apply w-max text-xl text-black font-semibold transition-all duration-300
 }
 
 .hover-arrow:hover svg {
