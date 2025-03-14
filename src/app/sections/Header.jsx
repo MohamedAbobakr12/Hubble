@@ -17,7 +17,7 @@ const Header = () => {
 
     return (
         <header className="fixed w-full h-20 bg-hero max-lg:bg-none max-lg:bg-primary z-10 md:shadow-2xl">
-            <nav className="block max-md: justify-between items-center h-full mx-16 max-xl:mx-12 max-lg:mx-6 max-md:mx-0">
+            <nav className="block max-md: justify-between items-center h-full mx-16 max-xl:mx-12 max-lg:mx-6 max-md:mx-0 z-10">
                 <div className="flex max-w-screen-2xl w-full justify-between items-center h-full">
                     <div className="flex justify-between items-center w-full md:hidden px-8">
                         <button onClick={toggleButton}>
