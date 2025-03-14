@@ -17,7 +17,7 @@ const Header = () => {
 
     return (
         <header className="fixed w-full h-20 bg-hero max-lg:bg-none max-lg:bg-primary z-10 md:shadow-2xl">
-            <nav className="block max-md: justify-between items-center h-full mx-16 max-xl:mx-12 max-lg:mx-6 max-md:mx-0 z-100">
+            <nav className="block max-md: justify-between items-center h-full mx-16 max-xl:mx-12 max-lg:mx-6 max-md:mx-0 z-20">
                 <div className="flex max-w-screen-2xl w-full justify-between items-center h-full">
                     <div className="flex justify-between items-center w-full md:hidden px-8">
                         <button onClick={toggleButton}>
@@ -70,7 +70,7 @@ const Header = () => {
                     </div>
                 </div>
                 {isClick && (
-                    <ul className="flex flex-col items-center w-full gap-y-10 pt-2 pb-5 bg-primary text-white shadow-2xl md:hidden z-50">
+                    <ul className="flex flex-col items-center w-full gap-y-10 pt-2 pb-5 bg-primary text-white shadow-2xl md:hidden z-10">
                         <li className="li hover:text-secondary">
                             <Link href="#home" onClick={handleLinkClick}>Home</Link>
                         </li>
