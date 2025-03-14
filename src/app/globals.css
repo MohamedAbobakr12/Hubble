@@ -3,19 +3,29 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --black: "#050507"
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.bg-hero {
+    background-image: linear-gradient(to right, #CEFF66 65%, white 35%);
+}
+
+.black:hover svg {
+    fill: var(--black);
+}
+
+.li {
+    @apply w-max text-xl font-semibold transition-all duration-300
+}
+
+.hover-arrow:hover svg {
+    fill: #050507;
+    transition: all 300ms;
 }
